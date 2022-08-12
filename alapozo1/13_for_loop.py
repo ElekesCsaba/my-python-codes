@@ -10,12 +10,13 @@ for i in names:
         break
     print(i)
 
-print("continue".ljust(50, "-"))
+print("continue".rjust(50, "-"))
 for i in names:
     if i == "Kriszta":
         continue
     print(i)
 
 print("enumerate".ljust(50, "-"))
+print("Length of the list:", len(names))
 for index, value in enumerate(names):
     print(f"Index: {index}, name: {value}")
