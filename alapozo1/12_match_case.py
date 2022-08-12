@@ -16,5 +16,7 @@ match status:
         print("100")
     case 200:
         print("200")
+    case 300:
+        print("Multiple Choices")
     case _:
         print("Unknown")

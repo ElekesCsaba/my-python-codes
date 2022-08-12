@@ -7,7 +7,6 @@ for name in names:
 
 print("break".ljust(50, "-"))
 for i in names:
-    pass
     if i == "Kriszta":
         break
     print(i)
