@@ -2,7 +2,6 @@ names = ["Robert", "Csaba", "Kriszta", "Csilla"]
 
 # empty inside with pass
 for name in names:
-    # pass
     print(name)
 
 print("break".ljust(50, "-"))
