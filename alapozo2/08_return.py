@@ -7,7 +7,8 @@ def multiply_numbers(a, b):
 
 
 def divide_numbers(a: int, b: int) -> float:
-    return a/b
+    # ternary operator
+    return 0 if b == 0 else a/b
 
 
 # result = return_nothing() returns None

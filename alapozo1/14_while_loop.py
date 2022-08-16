@@ -1,7 +1,7 @@
 number = 0
 
 while number < 10:
-    number += 1
+    number += 4
     if number == 6:
         break
     # if number == 7:
