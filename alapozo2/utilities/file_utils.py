@@ -44,6 +44,6 @@ def get_files(root_folder: str, files=[], name_filter=None) -> list:
 # Only for testing.
 # It will not run when function will be called.
 if __name__ == '__main__':
-    found_files = get_files(r"c:\Work\PythonSuli\pycore-220108\alapozo2", name_filter=".py")
+    found_files = get_files(r"c:\Dropbox\PythonSuli\pycore-220108\alapozo2", name_filter=".py")
     for f in found_files:
         print(f)

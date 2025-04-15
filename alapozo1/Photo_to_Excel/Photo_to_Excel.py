@@ -34,8 +34,8 @@ sheet["E1"] = "ISO"
 
 # open images with PIL (Python Image Library) = Pillow
 for index, file in enumerate(photos):
-    # op.path.join is a system independent method!!!
-    photo_path = os.path.join(photo_folder, file)
+    # os.path.join is a system independent method!!!
+     
     img = Image.open(photo_path)
 
     # add data for text file

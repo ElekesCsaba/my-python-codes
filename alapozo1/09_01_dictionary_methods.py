@@ -20,6 +20,6 @@ print(phonebook)
 
 # del phonebook["+36 31 234 4533"] #delete
 
-print(phonebook.keys()) # key list
-print(list(phonebook)) # cast to list of keys
-print(phonebook.values()) # value list
+print(phonebook.keys())  # key list
+print(list(phonebook))  # cast to list of keys
+print(phonebook.values())  # value list

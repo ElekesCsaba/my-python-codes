@@ -8,6 +8,7 @@ def timer(func):
 
         start_time = time.time()
 
+        # function calls here!
         result = func(*args, **kwargs)
 
         print(f"Job time: {time.time() - start_time}")
