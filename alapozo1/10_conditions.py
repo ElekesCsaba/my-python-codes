@@ -1,8 +1,9 @@
-number = 5
+number = 4
 
 if number == 5:
     # condition block
     print("The number is 5.")
+    print("ez is")
 
 if not number == 5:
     pass
