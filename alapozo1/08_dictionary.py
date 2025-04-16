@@ -1,3 +1,4 @@
+# kulcs és érték párok, ahol a kulcs egyedi
 phonebook = {
     "+36 30 528 9973": {
         "Name": "Robert",
@@ -6,7 +7,8 @@ phonebook = {
     "+36 31 234 4567": {
         "Name": "Csaba",
         "Address": "Pécs",
-        "Age": 34
+        "Age": 34,
+        "Kids": 2
     }
 }
 
