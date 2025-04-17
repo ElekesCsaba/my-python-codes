@@ -4,7 +4,6 @@ min_number = 1
 max_number = 10
 max_tries = 3
 try_nums = []
-tries = ""
 
 magic_number = random.randint(min_number, max_number)
 
@@ -35,7 +34,5 @@ else:
 print(f"My number was {magic_number}.")
 
 print("Your tries:")
-for i in try_nums:
-    tries += i + "|"
-
-print(tries)
+for i, t in enumerate(try_nums):
+    print(f"{i + 1}. {t}")

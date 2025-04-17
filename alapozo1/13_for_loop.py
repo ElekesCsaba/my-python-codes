@@ -1,6 +1,9 @@
 names = ["Robert", "Csaba", "Kriszta", "Csilla"]
 
 # empty inside with pass
+# for name in names:
+#    pass
+
 for name in names:
     print(name)
 

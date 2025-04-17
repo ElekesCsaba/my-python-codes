@@ -1,15 +1,15 @@
 number = 0
 
 while number < 10:
-    number += 4
+    number += 1
     if number == 6:
-        break
-    # if number == 7:
-    #     continue
-    else:
-        print(number)
+        continue
+    if number == 8:
+        # break
+        pass
+    print(number)
 else:
-    print("Number is 10.")
+    print(f"Number is {number}.")
 
 print("-"*100)
 
